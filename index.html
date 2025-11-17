@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>放假才能打麻將</title>
+    <title>超強期末專題</title>
     <script>
         function showTime() {
             const now = new Date();  // 獲取當前時間
-            var a = (now.getTime()-1739462409000)/103680000;
+            var a = (now.getTime()-1756656000000)/95040000;
             a = Number(a).toFixed(6);
             document.getElementById("time").innerText = a+"%";
 
-        }
+        }// 節日 : 9/29教師節 10/6中秋節 10/10國慶日 10/24光復節 11/19運動會 12/25聖誕節
 
         setInterval(showTime, 50); // 每秒更新一次時間
     </script>
 </head>
 <body onload="showTime()">
-    <h1 style="text-align: center;">2/17 ~ 6/6</h1>
+    <h1 style="text-align: center;">9/1 ~ 12/19</h1>
     <p id="time" 
     style="text-align: center; font-size: 60px;"
     ></p>
